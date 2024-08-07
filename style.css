@@ -31,7 +31,7 @@ header {
 }
 
 .hero {
-    background-image: url('images/bg-image.jpg');
+    background-image: url('Images/bg-image.jpg');
     background-size: cover;
     background-position: center;
     color: white;
