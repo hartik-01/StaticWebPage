@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #002855;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header-content p {
+    margin: 5px 0;
+}
+
+.header-content .contact-info {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header-content .contact-info span {
+    color: #00b0f0;
+}
+
+.hero {
+    background-image: url('images/bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    min-height: 400px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+.contact-form {
+    background-color: rgba(0, 40, 85, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-form h3 {
+    color: white;
+    margin-top: 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form input, .contact-form textarea {
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #00b0f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.about {
+    background-color: #002855;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about button {
+    background-color: #00b0f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #002855;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
