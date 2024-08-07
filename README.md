@@ -1,1 +1,1 @@
-# Static Web Page U sing HTML, CSS.
+# Static Web Page Using HTML, CSS.
